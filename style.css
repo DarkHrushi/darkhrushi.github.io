@@ -61,3 +61,41 @@ body {
     padding: 20px;
     border-radius: 8px;
 }
+
+.tech-stack {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.badge {
+    padding: 10px 15px;
+    border-radius: 8px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+/* Custom colors for each tech */
+.badge.java { background: #f89820; }
+.badge.html { background: #e34f26; }
+.badge.js { background: #f7df1e; color: #000; }
+.badge.php { background: #777bb4; }
+.badge.python { background: #3572A5; }
+.badge.aws { background: #ff9900; }
+.badge.anaconda { background: #42b029; }
+.badge.django { background: #092e20; }
+.badge.node { background: #68a063; }
+.badge.mysql { background: #00758f; }
+.badge.mssql { background: #a91d22; }
+.badge.mongodb { background: #4db33d; }
+.badge.matplotlib { background: #11557c; }
+.badge.numpy { background: #013243; }
+.badge.pandas { background: #150458; }
+.badge.keras { background: #d00000; }
+.badge.pytorch { background: #ee4c2c; }
+.badge.scikit { background: #f89939; }
+.badge.tensorflow { background: #ff6f00; }
+.badge.github { background: #24292e; }
